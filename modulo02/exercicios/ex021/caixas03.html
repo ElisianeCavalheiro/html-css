@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groouping Tags</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: rgb(44, 40, 40);
+            color: white;
+            padding: 5px;
+            margin: 5px;
+            border: 20px groove gray;       
+        }
+        nav {
+            background-color: rgb(209, 209, 228);
+            padding: 3px;
+            text-align: left;
+            box-shadow: 1px -20px 20px 4px black;;
+        }
+        nav > a {
+            font: italic bolder 20px Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: black;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+        nav > a:active {
+            color: red;
+        }
+        article > aside {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightgrey;
+        }
+        main {
+            background-color: white;
+            padding: 8px;
+            margin: 8px;
+            border: 8px groove black;
+            border-radius: 20px 0px;
+            box-shadow: -3px -2px 6px black;
+        }
+        footer{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, nostrum. Quisquam debitis adipisci tenetur nihil laudantium explicabo voluptas quod facilis earum nesciunt aspernatur, perferendis eaque amet vel blanditiis recusandae optio?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
